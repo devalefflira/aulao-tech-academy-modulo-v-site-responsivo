@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,400&display=swap');
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -10,7 +9,7 @@
 html,
 body {
   height: 100vh;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Source Sans Pro', 'Times New Roman';
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
 }
@@ -40,7 +39,7 @@ header nav ul li {
 
 header nav ul li a {
   text-decoration: none;
-  color: #ffffff;
+  color: white;
   text-transform: uppercase;
   font-size: 18px;
   padding: 24px;
@@ -48,7 +47,7 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-  background-color: rgba(255, 255, 255, 0.15);
+  background: rgba(255, 255, 255, 0.15);
 }
 
 header .container img {
@@ -56,7 +55,6 @@ header .container img {
 }
 
 /* MAIN */
-
 main {
   margin-bottom: 100px;
 }
@@ -64,13 +62,13 @@ main {
 main .container-main {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   max-width: 980px;
-  margin: 100px auto 0 auto;
+  margin: 100px auto 0px auto;
 }
 
 h2 {
-  color: #000000;
+  color: rgb(0, 0, 0);
   font-size: 45px;
   line-height: 50px;
   font-weight: bold;
@@ -96,12 +94,10 @@ form input {
   border-radius: 20px;
   border: 2px solid #0080ed;
 }
-
 form [type='submit'] {
   background-color: #0080ed;
-  color: #ffffff;
+  color: white;
 }
-
 form [type='submit']:hover {
   cursor: pointer;
 }
@@ -160,5 +156,16 @@ main .container-main img {
 }
 
 .title {
-  margin-bottom: 0;
+  margin-bottom: 0px;
+}
+
+.desafio {
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
+  height: 400px;
+  align-items: center;
+  border: 1px solid black;
+  margin: 100px auto;
+  max-width: 980px;
 }
